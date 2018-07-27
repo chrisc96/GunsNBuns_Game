@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="left-down" width="64" height="18" tilewidth="32" tileheight="32" nextobjectid="17">
+ <tileset firstgid="1" source="../img/untitled1.tsx"/>
+ <layer name="CollisionLayer" width="64" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YQQoAIAgEQK3+/+ZOQRcJhdrQHfCcVkqkIqKFg4jeWr03hL0Y1YzIgPOaKKajEwDKOAtPqtS5q1jzz26fB6KvPWvdyAl5xz377T0T6w2Hmtno/wd0THIOkPAAEgAA
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="64" height="18">
+  <object id="1" name="Player" type="Entity" x="64" y="444" width="32" height="32"/>
+  <object id="2" name="Gun" type="Weapon" x="386" y="448" width="32" height="32"/>
+  <object id="3" name="MeleeEnemy" type="Enemy" x="641" y="506" width="32" height="35">
+   <properties>
+    <property name="startX" type="float" value="20"/>
+    <property name="startY" type="float" value="16"/>
+    <property name="targetX" type="float" value="32"/>
+    <property name="targetY" type="float" value="16"/>
+   </properties>
+  </object>
+  <object id="15" name="Upgrade" type="Item" x="1123" y="450" width="32" height="32"/>
+ </objectgroup>
+</map>

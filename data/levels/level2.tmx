@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="left-down" width="64" height="18" tilewidth="32" tileheight="32" nextobjectid="13">
+ <tileset firstgid="1" source="../img/untitled1.tsx"/>
+ <layer name="CollisionLayer" width="64" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VwQrAIAxDne7/v3mXHWS0o2pjI/RBwVNNNcZSkuRM6lt3t66BWthAa2KcWaNt3CvaixIzmqpSyVmMeN96v+y+WNW3Oy/YmD2/yP+XzYdafjJqTWygckHyhGXdFE1eHpM0sXgX/Zb++o5mIkKj5gmv3r3mb3/rTMjM85j/AhW6v1c9+u68/wASAAA=
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="64" height="18">
+  <object id="1" name="Gun" type="Weapon" x="738" y="126" width="32" height="32"/>
+  <object id="4" name="Player" type="Entity" x="64" y="480" width="32" height="32"/>
+  <object id="7" name="Potion" type="Item" x="1058" y="219" width="32" height="32"/>
+  <object id="9" name="MeleeEnemy" type="Enemy" x="769" y="309" width="32" height="32">
+   <properties>
+    <property name="startX" type="float" value="24"/>
+    <property name="startY" type="float" value="10"/>
+    <property name="targetX" type="float" value="30"/>
+    <property name="targetY" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="10" name="MeleeEnemy" type="Enemy" x="1312" y="492" width="32" height="32">
+   <properties>
+    <property name="startX" type="float" value="41"/>
+    <property name="startY" type="float" value="16"/>
+    <property name="targetX" type="float" value="25"/>
+    <property name="targetY" type="float" value="14"/>
+   </properties>
+  </object>
+  <object id="12" name="Upgrade" type="Item" x="1471" y="478" width="32" height="32"/>
+ </objectgroup>
+</map>
